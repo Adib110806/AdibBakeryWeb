@@ -92,4 +92,20 @@
   }
 }
 
+.contact-section__video {
+  margin-top: var(--space-6);
+  border: 4px solid #c5b096;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  aspect-ratio: 16 / 9;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.contact-section__video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
