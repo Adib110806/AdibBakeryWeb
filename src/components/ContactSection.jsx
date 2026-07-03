@@ -90,7 +90,17 @@ export default function ContactSection() {
                 allowFullScreen
               />
             </div>
-
+            <div className="contact-media__video">
+              {/* Ganti VIDEO_ID di bawah dengan ID video YouTube kamu */}
+              <iframe
+                title="Video Adib Bakery"
+                src="https://www.youtube.com/embed/lLiRlin3KXQ?si=RnO0mEIZS5GVdiu8"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       </div>
