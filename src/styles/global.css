@@ -31,8 +31,6 @@ body {
   color: var(--color-brown-dark);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
-  padding-top: var(--navbar-height);
 }
 
 img {
